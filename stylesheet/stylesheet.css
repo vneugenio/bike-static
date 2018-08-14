@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "whitney";
+    src: url("../fonts/whitney.otf") format("opentype");
+}
+
+body {
+    background-color: #eee;
+    font-family: "whitney";
+    margin: 0;
+}
+
+div#wrapper, div#footer-banner img {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 980px;
+}
+
+nav#main-navigation {
+    background-color: #181818;
+    color: #fff;
+    padding:10px;
+}
+
+nav#main-navigation ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav#main-navigation ul li {
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: .05em;
+    margin: 0 10px;
+    text-transform: uppercase;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+}
+
+a.current {
+    border-bottom: 2px solid #fff;
+}
+
+#lead-banner img {
+    width: 100%;
+}
+
+#shop {
+    margin: 30px 0;
+    text-align: center;
+    letter-spacing: .05em;
+}
+
+#shop h2 {
+    margin: 0;
+}
+
+#shop span.price {
+    display: block;
+    font-size: 52px;
+    padding: 10px;
+}
+
+#shop a {
+    border-radius: 5px;
+    color: #8f746c;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+#shop a:hover {
+    background-color: #8f746c;
+    color: #fff;
+}
+
+#shop .rating {
+    padding: 10px;
+}
